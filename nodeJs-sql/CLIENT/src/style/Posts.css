@@ -1,0 +1,91 @@
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 55vw;
+}
+
+.post-item:hover {
+    background-color: #e0e0e0;
+}
+
+.post-details {
+    flex: 1;
+}
+
+.post-status {
+    margin: 0;
+    font-size: 14px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.action-btn {
+    color: #0097b2;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.post-details button {
+    width: auto;
+    background-color: rgba(255, 255, 255, 0);
+    height: 6vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+}
+
+.post-details button:hover {
+    font-weight: bolder;
+    border: 0px;
+}
+
+.details {
+    position: fixed;
+    top: 8vh;
+    right: 0vw;
+    width: 20vw;
+    background-color: #e0e0e0;
+    border-left: black solid 1px;
+    height: 92vh;
+    padding: 12vh 1vw 1vw 1vw;
+    text-align: start;
+}
+
+.details button:hover {
+    border: 1px black solid;
+}
+
+.more-details-h2,
+.more-details-h3 {
+    justify-content: center;
+    color: #0097b2;
+    font-weight: bold;
+    position: relative;
+    text-align: start;
+    font-family: 'Kaushan Script', cursive;
+    z-index: 2;
+}
+
+.more-details-h2 {
+    margin-top: 9vh;
+    font-size: 1.75vw;
+}
+
+.more-details-h3 {
+    font-size: 1.25vw;
+}

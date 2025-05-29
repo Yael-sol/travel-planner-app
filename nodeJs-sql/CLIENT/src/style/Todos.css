@@ -1,0 +1,48 @@
+.todos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.todo-item:hover {
+    background-color: #e0e0e0;
+}
+
+.todo-details {
+    flex: 1;
+}
+
+.todo-status {
+    margin: 0;
+    font-size: 14px;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.action-btn {
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    accent-color: #3390ad;
+}
+
+button:hover{
+    border: none;
+}
